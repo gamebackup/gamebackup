@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <img src="./images/looks-inside-cat-meme.png" alt="Logo" style="height: 40px; margin-right: 10px;">
                 <div style="margin: 0; color: white;">Unblocked Games x3e</div>
             </div>
-            <div class="game-count">Live Game Count: 223</div>
+            <div class="game-count">Live Game Count: 233</div>
             <nav>
                 <a href="https://gamebackup.github.io/x3e/">Home</a>
 
