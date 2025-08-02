@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Unblocked Games x3e</title>
+  <style>
+    body {
+      margin: 0;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: #111;
+      color: white;
+      zoom: 150%;
+    }
+    header {
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      position: relative; /* Needed for dropdown positioning */
+      z-index: 1000; /* Ensure header is above other content */
+    }
+    header img {
+      height: 40px;
+      border-radius: 5px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .game-count {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .hero {
+      background: url('./images/darken_tree_hd.png') no-repeat center center/cover;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .herotext {
+      max-width: 100%;
+      margin: 10px auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .hero h1 {
+      font-size: 36px;
+      font-weight: bold;
+      color: white;
+      -webkit-text-stroke: 1px black;
+    }
+    .hero p {
+      max-width: 100%;
+      margin: 10px auto;
+      font-size: 24px;
+      color: white;
+      -webkit-text-stroke: 1px black;
+    }
+    .section {
+      padding: 30px 20px;
+    }
+    .section h2 {
+      color: #e61587;
+      margin-bottom: 20px;
+    }
+    .button-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .button-grid button {
+      background-color: #800040;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button-grid button:hover {
+      background-color: #a00050;
+    }
+
+    /* Dropdown Styles */
+    .dropdown {
+      position: relative;
+      display: inline-block; /* Allows side-by-side with other nav items */
+      margin-left: 20px; /* Matches nav a margin */
+    }
+
+    .dropdown-content {
+      display: none; /* Hidden by default */
+      position: absolute;
+      background-color: #333; /* Darker background for dropdown */
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1; /* Ensure it appears above other content */
+      border-radius: 5px;
+      overflow: hidden; /* Ensures rounded corners apply to content */
+      top: 100%; /* Position below the dropdown button */
+      left: 0;
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      margin-left: 0; /* Override nav a margin */
+    }
+
+    .dropdown-content a:hover {
+      background-color: #555; /* Highlight on hover */
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Style the dropdown button/link */
+    .dropbtn {
+      color: white;
+      text-decoration: none;
+      padding: 0; /* Reset padding as it's part of the nav link */
+      cursor: pointer;
+      display: inline-block; /* Ensures padding/margin works correctly */
+    }
+
+    .dropbtn:hover {
+        color: #ddd; /* Slightly lighter color on hover for the button */
+    }
+
+
+    @media (max-width: 600px) {
+      .button-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+      /* Adjust header for smaller screens if needed */
+      header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+      }
+      nav {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a, .dropdown {
+        margin-left: 0;
+        margin-bottom: 10px; /* Add some space between vertical links */
+      }
+      .dropdown-content {
+        position: static; /* Stack dropdown content on small screens */
+        width: 100%;
+        box-shadow: none;
+        background-color: transparent; /* No background for stacked items */
+      }
+      .dropdown-content a {
+        padding: 8px 0;
+        text-align: center;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block; /* Keep dropdown open on small screens if clicked/focused */
+      }
+      .section {
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+ 
+  <script src='./js/header.js'></script>
+
+</body>
+</html>
+
+  <div class="hero">
+    <div class="herotext">
+        <h1>Share with Friends!!</h1>
+        <p><strong>If you request games, or just want to see what's happening, check out the Update Log at the bottom of the page!</strong></p>
+        <p><strong>(This site is like many other sites, except this site has no ads, and a lower chance of being blocked)</strong></p>
+        <p><strong>For any games hosted through Ruffle, if you right click on the game screen, a menu will appear, there is a fullscreen option</strong></p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Action & Adventure</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/bbrevenge/'">Burrito Bison: Revenge</button>
+      <button onclick="location.href='https://gamebackup.github.io/BurritoBison/'">Burrito Bison: Launcha Libre</button>
+      <button onclick="location.href='https://gamebackup.github.io/10tilldawn/'">10 Minutes till Dawn</button>
+      <button onclick="location.href='https://gamebackup.github.io/cactusmccoy/'">Cactus Mccoy</button>
+      <button onclick="location.href='https://gamebackup.github.io/cactusmccoy2/'">Cactus Mccoy 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/johnnyupgrade.html'">Johnny Upgrade</button>
+      <button onclick="location.href='https://gamebackup.github.io/diggy/'">Diggy</button>
+      <button onclick="location.href='https://gamebackup.github.io/bigratemporium/games/html/retrobowl/retrobowl.html'">Retro Bowl</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/justoneboss.html'">Just One Boss</button>
+      <button onclick="location.href='https://gamebackup.github.io/super-smash-flash/'">Super Smash Flash</button>
+      <button onclick="location.href='https://gamebackup.github.io/fruit-ninja/'">Fruit Ninja</button>
+      <button onclick="location.href='https://gamebackup.github.io/RE-RUN/'">RE:RUN</button>
+      <button onclick="location.href='https://gamebackup.github.io/Earntodie/'">Earn to Die</button>
+      <button onclick="location.href='https://gamebackup.github.io/earntodie2/'">Earn to Die 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/ultrakill/'">ULTRAKILL</button>
+      <button onclick="location.href='https://gamebackup.github.io/superhot_/'">SUPERHOT</button>
+      <button onclick="location.href='https://gamebackup.github.io/supercold/'">SUPERCOLD</button>
+      <button onclick="location.href='https://gamebackup.github.io/undertale/'">UNDERTALE</button>
+      <button onclick="location.href='https://gamebackup.github.io/deltarune/'">DELTARUNE</button>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Arcade & Classic</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/worldshardestgame/'">World's Hardest Game</button>
+      <button onclick="location.href='https://gamebackup.github.io/pacman/'">Pacman</button>
+      <button onclick="location.href='https://gamebackup.github.io/tron/'">Tron</button>
+      <button onclick="location.href='https://gamebackup.github.io/2048/'">2048</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/9007199254740992/index.html'">90071992547409</button>
+      <button onclick="location.href='https://gamebackup.github.io/tinyfish/'">Tiny Fishing</button>
+      <button onclick="location.href='https://gamebackup.github.io/haunt-the-house/'">Haunt the House</button>
+      <button onclick="location.href='https://gamebackup.github.io/wordle/'">Wordle Infinite</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/solitaire.html'">Solitaire</button>
+      <button onclick="location.href='https://gamebackup.github.io/QWOP/'">QWOP</button>
+      <button onclick="location.href='https://gamebackup.github.io/doodlejump/'">Doodle Jump</button>
+      <button onclick="location.href='https://gamebackup.github.io/bounce/'">Bounce</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/paperio2/index.html'">Paper.io 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/flappy-bird/index.html'">Flappy Bird</button>
+      <button onclick="location.href='https://gamebackup.github.io/googlesnake/'">Google Snake</button>
+      <button onclick="location.href='https://gamebackup.github.io/donkeykong/'">Donkey Kong</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Experiments & Physics</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/antcolony/'">Ant Colony Simulator</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/learning.html'">AI Learning</button>
+      <button onclick="location.href='https://gamebackup.github.io/adjfireworks/'">Adjustable Fireworks</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/fluidsimulator.html'">Fluid Simulation</button>
+      <button onclick="location.href='https://gamebackup.github.io/urres/'">Your Resolution</button>
+      <button onclick="location.href='https://gamebackup.github.io/3d-dice-roller/'">3D Dice Roller</button>
+      <button onclick="location.href='https://gamebackup.github.io/asciicam/'">Ascii Camera</button>
+      <button onclick="location.href='https://gamebackup.github.io/gameoflife/'">Conway's Game of Life</button>
+      <button onclick="location.href='https://gamebackup.github.io/Ripples/'">Ripples</button>
+      <button onclick="location.href='https://gamebackup.github.io/fishes/'">FISHIES</button>
+      <button onclick="location.href='https://gamebackup.github.io/bitsrain/'">Raining Bits</button>
+      <button onclick="location.href='https://gamebackup.github.io/urip/'">Your IP</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Platformers & Runners</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/subwaygame.github.io/'">Subway Surfers</button>
+      <button onclick="location.href='https://gamebackup.github.io/unbl0ck.github.io/games/subwaysurferssanfransisco/index.html'">Subway Surfers: San Fransisco</button>
+      <button onclick="location.href='https://gamebackup.github.io/unbl0ck.github.io/games/subwaysurferszurich/index.html'">Subway Surfers: Zurich</button>
+      <button onclick="location.href='https://gamebackup.github.io/Run2/'">Run 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/run3/'">Run 3</button>
+      <button onclick="location.href='https://gamebackup.github.io/Backpack-flyer/'">Jetpack Joyride</button>
+      <button onclick="location.href='https://gamebackup.github.io/bigratemporium/games/html/temple-run-2/index.html'">Temple Run 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/crossyroad/'">Crossy Road</button>
+      <button onclick="location.href='https://gamebackup.github.io/unbl0ck.github.io/games/crossyroad/index.html'">Crossy Road: Space</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/learntofly2.html'">Learn to Fly 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/sonic/'">Sonic: Ultimate</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/stumbleguys.html'">Stumble Guys</button>
+      <button onclick="location.href='https://gamebackup.github.io/happywheels/'">Happy Wheels</button>
+      <button onclick="location.href='https://gamebackup.github.io/chrome-dino-game.github.io/'">Chrome Dino Game</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/totm/index.html'">Tomb of the Mask</button>
+      <button onclick="location.href='https://gamebackup.github.io/Money-Movers/'">Money Movers</button>
+      <button onclick="location.href='https://gamebackup.github.io/Money-Movers-3/'">Money Movers 3</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Puzzle & Skill</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/chilibowlflash/blockblast/index.html'">Block Blast</button>
+      <button onclick="location.href='https://gamebackup.github.io/chilibowlflash/badpig.html'">Bad Piggies</button>
+      <button onclick="location.href='https://gamebackup.github.io/chilibowlflash/quiz.html'">The Impossible Quiz</button>
+      <button onclick="location.href='https://gamebackup.github.io/chilibowlflash/quiz2.html'">The Impossible Quiz 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/angrybirdsrio/'">Angry Birds: Rio</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/block-the-pig/index.html'">Block the Pig</button>
+      <button onclick="location.href='https://gamebackup.github.io/Stacking/'">Stacking</button>
+      <button onclick="location.href='https://gamebackup.github.io/tether/'">Tether</button>
+      <button onclick="location.href='https://gamebackup.github.io/Snowline/'">Snowline</button>
+      <button onclick="location.href='https://gamebackup.github.io/Snowline-2/'">Snowline 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/Portal-2D/'">Portal 2D</button>
+      <button onclick="location.href='https://gamebackup.github.io/chilibowlflash/ctr/index.html'">Cut the Rope</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/little-alchemy/index.html#retry'">Little Alchemy 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/gameinsideagame.html'">Game Inside a Game</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/bloxorz.html'">Bloxorz</button>
+      <button onclick="location.href='https://gamebackup.github.io/cannon-basketball2/'">Cannon Basketball 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/ball-sort-puzzle/index.html'">Ball Sort Puzzle</button>
+      <button onclick="location.href='https://gamebackup.github.io/Password-Cracker/'">Password Cracker</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/thereisnogame.html'">There is No Game</button>
+      <button onclick="location.href='https://gamebackup.github.io/8ballpool/'">8 Ball Pool</button>
+      <button onclick="location.href='https://gamebackup.github.io/bobrobber/'">Bob the Robber</button>
+      <button onclick="location.href='https://www.hoodamath.com/mobile/games/infinite-craft/game.html?nocheckorient=1'">Infinite Craft</button>
+      <button onclick="location.href='https://gamebackup.github.io/tetris1/'">Tetris</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/sandtrix/index.html'">Sand Tetris</button>
+      <button onclick="location.href='https://gamebackup.github.io/hextris/'">Hextris</button>
+      <button onclick="location.href='https://gamebackup.github.io/StratagemHeroOnline/'">Stratagem Trainer</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Racing & Driving</h2>
+    <div class="button-grid">
+      <button onclick="location.href='http://gamebackup.github.io/RoadFighter/selectmode.html'">Road Fighter</button>
+      <button onclick="location.href='https://gamebackup.github.io/HexGL/'">HexGL</button>
+      <button onclick="location.href='https://gamebackup.github.io/AwesomeCars/'">Awesome Cars</button>
+      <button onclick="location.href='https://gamebackup.github.io/jellytruck/'">Jellytruck</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/slope.html'">Slope</button>
+      <button onclick="location.href='https://gamebackup.github.io/snowrider3D/'">Snowrider 3D</button>
+      <button onclick="location.href='https://gamebackup.github.io/rocket-soccer/'">Rocket League</button>
+      <button onclick="location.href='https://gamebackup.github.io/polytrack/'">Polytrack</button>
+      <button onclick="location.href='https://gamebackup.github.io/slowroads/'">Slowroads</button>
+      <button onclick="location.href='https://gamebackup.github.io/crazycattlebackup.github.io/'">Crazy Cattle 3D</button>
+      <button onclick="location.href='https://gamebackup.github.io/Crazy-Kitty-3d/'">Crazy Kitty 3D</button>
+      <button onclick="location.href='https://gamebackup.github.io/Crazychicken3d/'">Crazy Chicken 3D</button>
+
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Roguelike & Roleplaying</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/the-binding-of-isaac-js/'">The Binding of Isaac</button>
+      <button onclick="location.href='https://gamebackup.github.io/blacksmithlab/'">Blacksmith Lab</button>
+      <button onclick="location.href='https://gamebackup.github.io/the-right-mix/'">Bartender - The Right Mix</button>
+      <button onclick="location.href='https://gamebackup.github.io/webfishing/'">Webfishing</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Shooting & Defense</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/spaceinvaders2/'">Space Invaders</button>
+      <button onclick="location.href='https://gamebackup.github.io/galaga/'">Galaga</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/raftwars.html'">Raft Wars</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/raftwars2.html'">Raft Wars 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/bullethell/'">Bullet Hell</button>
+      <button onclick="location.href='https://gamebackup.github.io/storm-the-house-2/'">Storm the House 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/awesometanks.html'">Awesome Tanks</button>
+      <button onclick="location.href='https://gamebackup.github.io/awesometanks2/'">Awesome Tanks 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/AwesomePlanes/'">Awesome Planes</button>
+      <button onclick="location.href='https://gamebackup.github.io/endoparasitic/'">Endoparasitic</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Strategy & Simulation</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/adarkroom/'">A Dark Room</button>
+      <button onclick="location.href='https://gamebackup.github.io/ageofwar/'">Age of War</button>
+      <button onclick="location.href='https://gamebackup.github.io/ageofwar2/'">Age of War 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/armyofages_/'">Army of Ages</button>
+      <button onclick="location.href='https://gamebackup.github.io/finalearth2test/'">The Final Earth 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/jacksmith/'">Jacksmith</button>
+      <button onclick="location.href='https://gamebackup.github.io/sandboxels/'">Sandboxels</button>
+      <button onclick="location.href='https://gamebackup.github.io/sort-the-court/'">Sort the Court</button>
+      <button onclick="location.href='https://gamebackup.github.io/cookieclicker/'">Cookie Clicker</button>
+      <button onclick="location.href='https://gamebackup.github.io/dogeminer/'">Doge Miner</button>
+      <button onclick="location.href='https://gamebackup.github.io/civ-clicker/'">Civ Clicker</button>
+      <button onclick="location.href='https://gamebackup.github.io/waterworks/'">Waterworks</button>
+      <button onclick="location.href='https://gamebackup.github.io/idledice/'">Idle Dice</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/cell-machine/index.html'">Cell Machine</button>
+      <button onclick="location.href='https://gamebackup.github.io/basketballstars/'">Basketball Stars</button>
+      <button onclick="location.href='https://gamebackup.github.io/Freshwater-Fishing-Simulator/'">Freshwater Fishing SImulator</button>
+      <button onclick="location.href='https://gamebackup.github.io/rccreator/'">Roller Coaster Creator</button>
+      <button onclick="location.href='https://gamebackup.github.io/HorseRacer/'">Horse Racing</button>
+      <button onclick="location.href='https://gamebackup.github.io/21js/'">21 (BlackJack)</button>
+    </div>
+  </div>
+
+<div>
+  <center>
+    <h2 style="color: #e61587;">⇓ All Game Series Tabs are below ⇓</h2>
+  </center>
+</div>
+
+<div class="section">
+    <h2>Bloons Tower Defense Games</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/btd1.html'">Bloons Tower Defense 1</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/btd2.html'">Bloons Tower Defense 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/BloonsTowerDefense3/'">Bloons Tower Defense 3</button>
+      <button onclick="location.href='https://gamebackup.github.io/Bloonstd4/'">Bloons Tower Defense 4</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/btd5.html'">Bloons Tower Defense 5</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Duck Life Collection</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/ducklife1.html'">Duck Life 1</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/ducklife2.html'">Duck Life 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/ducklife3.html'">Duck Life 3</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/ducklife4.html'">Duck Life 4</button>
+      <button onclick="location.href='https://gamebackup.github.io/unbl0ck.github.io/games/ducklife/ducklife4/index.html'">Duck Life 4 - Remaster</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/ducklife5.html'">Duck Life 5</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Emulators</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://peteward44.github.io/WebNES/index_app.html'">NES</button>
+      <button onclick="location.href='https://gamebackup.github.io/gba.js.org/'">GBA</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/'">2nd GBA</button>
+      <button onclick="location.href='https://brxxn.github.io/ds-anywhere/'">DS (needs game roms)</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Fancy Pants Adventure</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/FancyPants/'">Fancypants 1</button>
+      <button onclick="location.href='https://gamebackup.github.io/FancyPants2/'">Fancypants 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/FancyPants3/'">Fancypants 3</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Henry Stickmin Collection</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/BreakingTheBank/'">Breaking the Bank</button>
+      <button onclick="location.href='https://gamebackup.github.io/EscapingThePrison/'">Escaping the Prison</button>
+      <button onclick="location.href='https://gamebackup.github.io/StealingTheDiamond/'">Stealing the Diamond</button>
+      <button onclick="location.href='https://gamebackup.github.io/InfiltratingTheAirship/'">Infiltrating the Airship</button>
+      <button onclick="location.href='https://gamebackup.github.io/FleeingTheComplex/'">Fleeing the Complex</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Minecraft (Check Instructions First)</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://docs.google.com/document/d/1WkSeNfptCHMEBLGB50VyjYFk2zu7pMLrYSmBuK1B0w0/edit?usp=sharing'">Instructions</button>
+      <button onclick="location.href='https://gamebackup.github.io/eagle1.12.2/'">Minecraft Link</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Moto X3M</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/chilibowlflash/motox3m/index.html'">Moto X3M 1</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/moto-x3m-2/index.html'">Moto X3M 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/moto-x3m-pool-party/index.html'">Moto X3M: Pool Party</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/moto-x3m-spooky-land/index.html'">Moto X3M: Spooky Land</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/moto-x3m-winter/index.html'">Moto X3M: Winter</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Papa's Games</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/PapaL1-WPA/'">Papa Louie 1: When Pizzas Attack!</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapaL2-WBA/'">Papa Louie 2: When Burgers Attack!</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapaL3-WSA/'">Papa Louie 3: When Sundaes Attack!</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasScooperia/'">Papa's Scooperia</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasPastaria/'">Papa's Pastaria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasFreezeria/'">Papa's Freezeria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasBurgeria/'">Papa's Burgeria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasPanCakeria/'">Papa's PanCakeria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasWingeria/'">Papa's Wingeria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasDonuteria/'">Papa's Donuteria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasBakeria/'">Papa's Bakeria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasPizzeria/'">Papa's Pizzeria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasTacoMia/'">Papa's Taco Mia</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasCupcakeria/'">Papa's Cupcakeria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasHotDoggeria/'">Papa's Hotdoggeria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasSushiria/'">Papa's Sushiria</button>
+      <button onclick="location.href='https://gamebackup.github.io/PapasCheeseria/'">Papa's Cheeseria</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Pokémon Collection</h2>
+    <div class="button-grid">
+      <button onclick="location.href='http://gamebackup.github.io/GBA/launcher.html#pokemonruby'">Pokémon Ruby</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#pokemonsapphire'">Pokémon Saspphire</button>
+      <button onclick="location.href='https://gamebackup.github.io/PokemonEmerald/'">Pokémon Emerald</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#pokemongreen'">Pokémon Leaf Green</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#pokemonred'">Pokémon Fire Red</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#pokemonek'">Pokémon Emerald Kaizo</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#eprp'">Pokémon Emerald: Random Party</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#pokemonflorasky'">Pokémon Emerald: Flora Sky</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#gaia'">Pokémon Fire Red: Gaia</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#prs'">Pokémon Fire Red: Rocket Edition</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#pokewb'">Pokémon: Water Blue</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#pokemonlp'">Pokémon Ruby: Light Platinum</button>
+      <button onclick="location.href='https://simplyblgdev.github.io/Pokemon/'">Pokémon: Region Maps</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#mysteryred'">Pokémon Mystery Dungeon: Red</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Red Ball Games</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/redball2/'">Red Ball 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/Red-Ball-3/'">Red Ball 3</button>
+      <button onclick="location.href='https://gamebackup.github.io/redball-4/'">Red Ball 4</button>
+      <button onclick="location.href='https://gamebackup.github.io/Red-Ball-5/'">Red Ball 5</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Retro Games</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/Solitaire98/'">Solitaire 98</button>
+      <button onclick="location.href='https://gamebackup.github.io/bigratemporium/games/html/minesweeper/index.html'">Minesweeper</button>
+      <button onclick="location.href='https://pixelsuft.github.io/hl/xash.html#150'">Half Life</button>
+      <button onclick="location.href='https://gamebackup.github.io/SM-Kart-ZX-Web-Port/'">Super Mario Kart</button>
+      <button onclick="location.href='https://gamebackup.github.io/SuperMario64/'">Super Mario 64</button>
+      <button onclick="location.href='http://gamebackup.github.io/Quake3'">Quak III Arena</button>
+      <button onclick="location.href='https://gamebackup.github.io/chilibowlflash/pong.html'">Pong</button>
+      <button onclick="location.href='https://gamebackup.github.io/Pepsi-pinball/'">Pepsi Pinball</button>
+      <button onclick="location.href='https://gamebackup.github.io/chilibowlflash/dosbox/?soft=DOOM'">The Ultimate Doom</button>
+      <button onclick="location.href='https://gamebackup.github.io/GBA/launcher.html#nfsu'">Need for Speed: Underground</button>
+      <button onclick="location.href='https://gamebackup.github.io/mountain658.github.io/celeste.html'">8-Bit Celeste</button>
+    </div>
+  </div>
+
+<div class="section">
+    <h2>Snail Bob Collection</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/snail-bob/index.html'">Snail Bob 1</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/snail-bob-2/index.html'">Snail Bob 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/snail-bob-3/index.html'">Snail Bob 3</button>
+      <button onclick="location.href='https://gamebackup.github.io/allgames/projects/snail-bob-4/index.html'">Snail Bob 4</button>
+      <button onclick="location.href='https://gamebackup.github.io/snailbob5/'">Snail Bob 5</button>
+      <button onclick="location.href='https://gamebackup.github.io/snailbob6/'">Snail Bob 6</button>
+      <button onclick="location.href='https://gamebackup.github.io/snailbob7/'">Snail Bob 7</button>
+      <button onclick="location.href='https://gamebackup.github.io/snailbob8/'">Snail Bob 8</button>
+  </div>
+</div>
+
+<div class="section">
+    <h2>Vex Games</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/vex/'">Vex 1</button>
+      <button onclick="location.href='https://gamebackup.github.io/vex2/'">Vex 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/Vex3e/'">Vex 3</button>
+      <button onclick="location.href='https://gamebackup.github.io/bigratemporium/games/html/vex4/index.html'">Vex 4</button>
+      <button onclick="location.href='https://gamebackup.github.io/bigratemporium/games/html/vex5/index.html'">Vex 5</button>
+      <button onclick="location.href='https://gamebackup.github.io/bigratemporium/games/html/vex6/index.html'">Vex 6</button>
+  </div>
+</div>
+
+<div class="section">
+    <h2>Wheely Collection</h2>
+    <div class="button-grid">
+      <button onclick="location.href='https://gamebackup.github.io/wheely1/'">Wheely 1</button>
+      <button onclick="location.href='https://gamebackup.github.io/wheely2/'">Wheely 2</button>
+      <button onclick="location.href='https://gamebackup.github.io/wheely3/'">Wheely 3</button>
+      <button onclick="location.href='https://gamebackup.github.io/wheely4/'">Wheely 4</button>
+      <button onclick="location.href='https://gamebackup.github.io/wheely5/'">Wheely 5</button>
+      <button onclick="location.href='https://gamebackup.github.io/wheely6/'">Wheely 6</button>
+      <button onclick="location.href='https://gamebackup.github.io/wheely7/'">Wheely 7</button>
+      <button onclick="location.href='https://gamebackup.github.io/wheely8/'">Wheely 8</button>
+  </div>
+</div>
+
+<div style="height: 10px;"></div>
+  
+<div style="text-align: center; padding: 5px; font-size: 14px; color: #888;">
+    © COMPOUND//CREATIONS 2025  <br>
+  </div>
+   <div class="dmca-footer" style="text-align: center;font-size: 10px; color: #888">
+     Check out the <a href="https://gamebackup.github.io/x3e/dedications.html" target="_blank" style="color: #d200ff;">Dedications</a> page!
+  </div>
+    
+   <div class="dmca-footer" style="text-align: center;font-size: 10px; color: #666">
+    All games featured on this site are the property of their respective copyright holders. This site is a fan-made, non-commercial site intended for educational and entertainment use. If you are a rights holder and wish to have your content removed, please contact us via our <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2hOhnEVCMaJITOgmYvtjMql7U0AJSjFoSDfYErlvsZtSwDQ/viewform?usp=header" target="_blank" style="color: #d200ff;">DMCA</a> Form.
+  </div>
+</body>
+</html>
+
+
+
