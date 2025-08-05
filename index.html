@@ -182,6 +182,10 @@
   <script>// js/header.js (or header.js if in root)
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Correctly define the repoBaseUrl variable.
+    // This gets the base URL of the current page, which is what you want.
+    const repoBaseUrl = window.location.origin + window.location.pathname;
+
     // Define your header HTML as a string using backticks (template literals)
     // This makes it easy to write multi-line HTML
     const headerHtml = `
@@ -193,12 +197,12 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="game-count">Live Game Count: 233</div>
             <nav>
                 <a href="${repoBaseUrl}">Home</a>
-
+                
                 <div class="dropdown">
                     <a href="${repoBaseUrl}flash-games.html" class="dropbtn">Flash Games <span style="font-size: 0.8em;">&#9660;</span></a>
                     <div class="dropdown-content">
                         <a href="${repoBaseUrl}flash-emulator.html">Flash Emulator</a>
-                        </div>
+                    </div>
                 </div>
 
                 <a href="https://forms.gle/4qtsrTs18sW5equ9A">Game Request Form</a>
@@ -650,6 +654,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <script src="js/opengame.js"></script>
 </body>
 </html>
+
 
 
 
