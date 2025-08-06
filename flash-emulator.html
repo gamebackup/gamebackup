@@ -172,15 +172,8 @@
 </head>
 <body>
 
-  <script>// js/header.js (or header.js if in root)
-
-document.addEventListener('DOMContentLoaded', function() {
-    // Correctly define the repoBaseUrl variable.
-    // This gets the base URL of the current page, which is what you want.
-    const repoBaseUrl = window.location.origin + window.location.pathname;
-
-    // Define your header HTML as a string using backticks (template literals)
-    // This makes it easy to write multi-line HTML
+  <script>document.addEventListener('DOMContentLoaded', function() {
+    const repoBaseUrl = window.location.origin + '/';
     const headerHtml = `
         <header>
             <div style="display: flex; align-items: center;">
@@ -203,8 +196,6 @@ document.addEventListener('DOMContentLoaded', function() {
             </nav>
         </header>
     `;
-
-    // Find the <body> element and insert the header at its beginning
     document.body.insertAdjacentHTML('afterbegin', headerHtml);
 });</script>
 
