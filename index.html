@@ -110,6 +110,29 @@
 </head>
   
 <body>
+  <script>
+    function cloak(gameUrl) {
+      // Open a new tab and assign it to a variable.
+      var blankWindow = window.open('about:blank', '_blank');
+
+      // Redirect the current window to 'about:blank'.
+      window.location.href = 'about:blank';
+
+      // Check if the new window opened successfully.
+      if (blankWindow) {
+        // Create a full-screen iframe to load the game.
+        var iframe = blankWindow.document.createElement('iframe');
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.border = "none";
+        iframe.style.margin = "0";
+        iframe.src = gameUrl;
+
+        // Append the iframe to the new window's body.
+        blankWindow.document.body.appendChild(iframe);
+      }
+    }
+  </script>
  <header>
             <div style="display: flex; align-items: center;">
             <img src="/images/Cat-looks-inside-meme.png" style="margin-right: 10px;">
@@ -139,7 +162,7 @@
   <div class="section">
     <h2>Featured Games</h2>
     <div class="button-grid">
-      <button onclick="location.href='/standalone_games/tanukisunset/'">Tanuki Sunset</button>
+      <button onclick="cloak('/standalone_games/tanukisunset/')">Tanuki Sunset</button>
       <button onclick="location.href='/standalone_games/undertale/'">UNDERTALE</button>
       <button onclick="location.href='/standalone_games/fluidsim/'">Fluid Simulation</button>
       <button onclick="location.href='/standalone_games/totm/'">Tomb of the Mask</button>
@@ -532,5 +555,6 @@
   </div>
 </body>
 </html>
+
 
 
