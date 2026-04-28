@@ -1,6 +1,6 @@
 hi i run an unblocked games site :) 
 
-ive also made a browser based discord clone thats available on my site
+ive also made a browser based discord clone thats available on my site (chorde)
 
 capitalization is dumb
 
