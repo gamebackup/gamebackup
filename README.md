@@ -6,7 +6,7 @@ capitalization is dumb
 
 :3
 
-# Woah! look at all of the ![](https://komarev.com/ghpvc/?username=gamebackup&color=DC147F)
+## Woah! look at all of the ![](https://komarev.com/ghpvc/?username=gamebackup&color=DC147F)
 
 
 
