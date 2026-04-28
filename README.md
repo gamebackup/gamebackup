@@ -1,7 +1,15 @@
 ## Hi there 👋
+hi i run an unblocked games site :) 
+ive also made a browser based discord clone thats available on my site
+capitalization is dumb
+:3
+![](https://komarev.com/ghpvc/?username=gamebackup&color=DC147F)
 
-<!--
-**gamebackup/gamebackup** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+
+
+
+<!-- **gamebackup/gamebackup** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
