@@ -1,4 +1,3 @@
-## Hi there 👋
 hi i run an unblocked games site :) 
 ive also made a browser based discord clone thats available on my site
 capitalization is dumb
