@@ -5,6 +5,7 @@ ive also made a browser based discord clone thats available on my site
 capitalization is dumb
 
 :3
+
 ![](https://komarev.com/ghpvc/?username=gamebackup&color=DC147F)
 
 
