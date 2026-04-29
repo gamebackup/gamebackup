@@ -8,6 +8,10 @@ capitalization is dumb
 
 ## Woah! look at all of the ![](https://komarev.com/ghpvc/?username=gamebackup&color=DC147F)
 
+# Cool Stats!
+
+![gamebackup's Stats](https://github-readme-stats.vercel.app/api?username=gamebackup&theme=dracula&show_icons=true&hide_border=false&count_private=false)
+![gamebackup's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gamebackup&theme=dracula&show_icons=true&hide_border=false&layout=compact)
 
 
 
